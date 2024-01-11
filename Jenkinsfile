@@ -10,7 +10,7 @@ pipeline {
                     snykSecurity(
                         snykInstallation: 'snyk@latest',
                         snykTokenId: 'selami',
-                        targetFile: 'src/pom.xml',
+                        //targetFile: 'src/pom.xml',
                       // place other parameters here
                     )
 
